@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const card = document.createElement("div");
     card.className = "vereador";
     card.innerHTML = `
-      <img src="${v.foto}" alt="${v.nome}">" onerror="this.src='fotos/placeholder.jpg'">
+     <img src="${v.foto}" alt="${v.nome}" onerror="this.src='placeholder.jpg'">
       <span>${v.nome}</span>
     `;
     galeria.appendChild(card);
